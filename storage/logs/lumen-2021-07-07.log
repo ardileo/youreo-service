@@ -1,0 +1,56 @@
+[2021-07-07 07:14:33] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php:1032
+Stack trace:
+#0 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(943): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(878): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(840): Illuminate\Container\Container->resolveDependencies(Array)
+#3 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(691): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(637): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 C:\laragon\www\ {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php:1032
+Stack trace:
+#0 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(943): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(878): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(840): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(691): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(637): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 C:\\laragon\\www\\ at C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php:1032)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-07 07:14:33] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-07 07:34:37] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-07 07:34:37] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php:1032
+Stack trace:
+#0 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(943): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(878): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(840): Illuminate\Container\Container->resolveDependencies(Array)
+#3 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(691): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(637): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 C:\laragon\www\ {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php:1032
+Stack trace:
+#0 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(943): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(878): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(840): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(691): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(637): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 C:\\laragon\\www\\ at C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php:1032)
+[stacktrace]
+#0 {main}
+"} 

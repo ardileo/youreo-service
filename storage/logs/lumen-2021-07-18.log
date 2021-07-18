@@ -1,0 +1,914 @@
+[2021-07-18 17:38:23] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Target [Illuminate\Contracts\Http\Kernel] is not instantiable. in C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php:1017
+Stack trace:
+#0 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(818): Illuminate\Container\Container->notInstantiable('Illuminate\\Cont...')
+#1 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(691): Illuminate\Container\Container->build('Illuminate\\Cont...')
+#2 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(637): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array)
+#3 C:\laragon\www\youreoAPI\vendor\laravel\lumen-framework\src\Application.php(300): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#4 C:\laragon\www\youreoAPI\vendor\laravel\lumen-framework\src\helpers.php(43): Laravel\Lumen\Application->make('Illuminate\\Cont...', Array)
+#5 Command line code(1): app('Illuminate\\Cont...')
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Target [Illuminate\\Contracts\\Http\\Kernel] is not instantiable. in C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php:1017
+Stack trace:
+#0 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(818): Illuminate\\Container\\Container->notInstantiable('Illuminate\\\\Cont...')
+#1 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(691): Illuminate\\Container\\Container->build('Illuminate\\\\Cont...')
+#2 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(637): Illuminate\\Container\\Container->resolve('Illuminate\\\\Cont...', Array)
+#3 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make('Illuminate\\\\Cont...', Array)
+#4 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\helpers.php(43): Laravel\\Lumen\\Application->make('Illuminate\\\\Cont...', Array)
+#5 Command line code(1): app('Illuminate\\\\Cont...')
+#6 {main}
+  thrown at C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php:1017)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 17:38:23] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 17:38:23] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 17:38:24] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php:1032
+Stack trace:
+#0 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(943): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(878): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(840): Illuminate\Container\Container->resolveDependencies(Array)
+#3 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(691): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(637): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 C:\laragon\www\ {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php:1032
+Stack trace:
+#0 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(943): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(878): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(840): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(691): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(637): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 C:\\laragon\\www\\ at C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php:1032)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 17:38:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 17:39:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 17:40:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 17:41:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 17:42:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 17:43:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 17:44:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 17:45:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 17:46:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 17:47:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 17:47:50] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php:1032
+Stack trace:
+#0 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(943): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(878): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(840): Illuminate\Container\Container->resolveDependencies(Array)
+#3 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(691): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(637): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 C:\laragon\www\ {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php:1032
+Stack trace:
+#0 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(943): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(878): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(840): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(691): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(637): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 C:\\laragon\\www\\ at C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php:1032)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 17:48:50] local.ERROR:  {"exception":"[object] (Illuminate\\Http\\Exceptions\\HttpResponseException(code: 0):  at C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\http\\ResponseTrait.php:151)
+[stacktrace]
+#0 C:\\laragon\\www\\youreoAPI\\app\\Helpers\\ErrorBuilder.php(42): Illuminate\\Http\\JsonResponse->throwResponse()
+#1 C:\\laragon\\www\\youreoAPI\\app\\Http\\Middleware\\Authenticate.php(58): App\\Helpers\\ErrorBuilder->toResponse()
+#2 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\pipeline\\Pipeline.php(167): App\\Http\\Middleware\\Authenticate->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure), 'api_token')
+#3 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#4 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Http\\Request))
+#5 C:\\laragon\\www\\youreoAPI\\app\\Http\\Middleware\\BranchDB.php(28): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#6 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\pipeline\\Pipeline.php(167): App\\Http\\Middleware\\BranchDB->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure), 'version')
+#7 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#8 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Http\\Request))
+#9 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\pipeline\\Pipeline.php(103): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#10 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(423): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#11 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(260): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#12 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(234): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#13 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(170): Laravel\\Lumen\\Application->handleDispatcherResponse(Array)
+#14 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#15 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#16 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch(NULL)
+#17 C:\\laragon\\www\\youreoAPI\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#18 {main}
+"} 
+[2021-07-18 17:48:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 17:49:05] local.ERROR:  {"exception":"[object] (Illuminate\\Http\\Exceptions\\HttpResponseException(code: 0):  at C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\http\\ResponseTrait.php:151)
+[stacktrace]
+#0 C:\\laragon\\www\\youreoAPI\\app\\Helpers\\ErrorBuilder.php(42): Illuminate\\Http\\JsonResponse->throwResponse()
+#1 C:\\laragon\\www\\youreoAPI\\app\\Http\\Middleware\\Authenticate.php(58): App\\Helpers\\ErrorBuilder->toResponse()
+#2 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\pipeline\\Pipeline.php(167): App\\Http\\Middleware\\Authenticate->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure), 'api_token')
+#3 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#4 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Http\\Request))
+#5 C:\\laragon\\www\\youreoAPI\\app\\Http\\Middleware\\BranchDB.php(28): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#6 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\pipeline\\Pipeline.php(167): App\\Http\\Middleware\\BranchDB->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure), 'version')
+#7 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#8 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Http\\Request))
+#9 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\pipeline\\Pipeline.php(103): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#10 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(423): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#11 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(260): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#12 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(234): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#13 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(170): Laravel\\Lumen\\Application->handleDispatcherResponse(Array)
+#14 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#15 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#16 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch(NULL)
+#17 C:\\laragon\\www\\youreoAPI\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#18 {main}
+"} 
+[2021-07-18 17:49:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 17:50:51] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 17:51:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 17:52:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 17:53:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 17:54:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 17:55:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 17:56:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 17:57:50] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php:1032
+Stack trace:
+#0 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(943): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(878): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(840): Illuminate\Container\Container->resolveDependencies(Array)
+#3 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(691): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(637): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 C:\laragon\www\ {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php:1032
+Stack trace:
+#0 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(943): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(878): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(840): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(691): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(637): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 C:\\laragon\\www\\ at C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php:1032)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 17:57:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 17:58:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 17:59:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:00:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:01:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:02:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:03:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:04:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:05:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:06:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:07:50] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php:1032
+Stack trace:
+#0 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(943): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(878): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(840): Illuminate\Container\Container->resolveDependencies(Array)
+#3 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(691): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(637): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 C:\laragon\www\ {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php:1032
+Stack trace:
+#0 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(943): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(878): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(840): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(691): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(637): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 C:\\laragon\\www\\ at C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php:1032)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:07:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:08:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:09:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:10:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:11:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:12:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:13:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:14:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:15:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:16:51] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:17:50] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php:1032
+Stack trace:
+#0 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(943): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(878): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(840): Illuminate\Container\Container->resolveDependencies(Array)
+#3 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(691): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(637): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 C:\laragon\www\ {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php:1032
+Stack trace:
+#0 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(943): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(878): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(840): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(691): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(637): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 C:\\laragon\\www\\ at C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php:1032)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:17:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:18:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:19:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:20:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:21:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:22:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:23:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:24:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:25:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:26:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:27:50] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php:1032
+Stack trace:
+#0 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(943): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(878): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(840): Illuminate\Container\Container->resolveDependencies(Array)
+#3 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(691): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(637): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 C:\laragon\www\ {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php:1032
+Stack trace:
+#0 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(943): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(878): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(840): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(691): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(637): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 C:\\laragon\\www\\ at C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php:1032)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:27:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:28:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:29:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:30:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:31:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:32:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:33:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:34:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:35:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:36:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:37:50] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php:1032
+Stack trace:
+#0 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(943): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(878): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(840): Illuminate\Container\Container->resolveDependencies(Array)
+#3 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(691): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(637): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 C:\laragon\www\ {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php:1032
+Stack trace:
+#0 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(943): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(878): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(840): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(691): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(637): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 C:\\laragon\\www\\ at C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php:1032)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:37:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:38:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:39:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:40:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:41:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:42:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:43:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:44:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 18:45:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-07-18 20:23:07] local.ERROR:  {"exception":"[object] (Illuminate\\Http\\Exceptions\\HttpResponseException(code: 0):  at C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\http\\ResponseTrait.php:151)
+[stacktrace]
+#0 C:\\laragon\\www\\youreoAPI\\app\\Helpers\\ErrorBuilder.php(42): Illuminate\\Http\\JsonResponse->throwResponse()
+#1 C:\\laragon\\www\\youreoAPI\\app\\Http\\Middleware\\Authenticate.php(58): App\\Helpers\\ErrorBuilder->toResponse()
+#2 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\pipeline\\Pipeline.php(167): App\\Http\\Middleware\\Authenticate->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure), 'api_token')
+#3 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#4 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Http\\Request))
+#5 C:\\laragon\\www\\youreoAPI\\app\\Http\\Middleware\\BranchDB.php(28): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#6 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\pipeline\\Pipeline.php(167): App\\Http\\Middleware\\BranchDB->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure), 'version')
+#7 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#8 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Http\\Request))
+#9 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\pipeline\\Pipeline.php(103): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#10 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(423): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#11 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(260): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#12 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(234): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#13 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(170): Laravel\\Lumen\\Application->handleDispatcherResponse(Array)
+#14 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#15 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#16 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch(NULL)
+#17 C:\\laragon\\www\\youreoAPI\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#18 {main}
+"} 

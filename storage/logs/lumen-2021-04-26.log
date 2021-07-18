@@ -1,0 +1,1646 @@
+[2021-04-26 21:22:29] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php:1032
+Stack trace:
+#0 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(943): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(878): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(840): Illuminate\Container\Container->resolveDependencies(Array)
+#3 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(691): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(637): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 C:\laragon\www\ {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php:1032
+Stack trace:
+#0 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(943): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(878): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(840): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(691): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(637): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 C:\\laragon\\www\\ at C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php:1032)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:22:29] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:22:29] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Target [Illuminate\Contracts\Http\Kernel] is not instantiable. in C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php:1017
+Stack trace:
+#0 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(818): Illuminate\Container\Container->notInstantiable('Illuminate\\Cont...')
+#1 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(691): Illuminate\Container\Container->build('Illuminate\\Cont...')
+#2 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(637): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array)
+#3 C:\laragon\www\youreoAPI\vendor\laravel\lumen-framework\src\Application.php(300): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#4 C:\laragon\www\youreoAPI\vendor\laravel\lumen-framework\src\helpers.php(43): Laravel\Lumen\Application->make('Illuminate\\Cont...', Array)
+#5 Command line code(1): app('Illuminate\\Cont...')
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Target [Illuminate\\Contracts\\Http\\Kernel] is not instantiable. in C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php:1017
+Stack trace:
+#0 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(818): Illuminate\\Container\\Container->notInstantiable('Illuminate\\\\Cont...')
+#1 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(691): Illuminate\\Container\\Container->build('Illuminate\\\\Cont...')
+#2 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(637): Illuminate\\Container\\Container->resolve('Illuminate\\\\Cont...', Array)
+#3 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Application.php(300): Illuminate\\Container\\Container->make('Illuminate\\\\Cont...', Array)
+#4 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\helpers.php(43): Laravel\\Lumen\\Application->make('Illuminate\\\\Cont...', Array)
+#5 Command line code(1): app('Illuminate\\\\Cont...')
+#6 {main}
+  thrown at C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php:1017)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:22:29] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:23:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:24:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:25:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:26:14] local.ERROR:  {"exception":"[object] (Illuminate\\Http\\Exceptions\\HttpResponseException(code: 0):  at C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\http\\ResponseTrait.php:151)
+[stacktrace]
+#0 C:\\laragon\\www\\youreoAPI\\app\\Helpers\\ErrorBuilder.php(42): Illuminate\\Http\\JsonResponse->throwResponse()
+#1 C:\\laragon\\www\\youreoAPI\\app\\Exceptions\\Handler.php(56): App\\Helpers\\ErrorBuilder->toResponse(Object(Laravel\\Lumen\\Http\\Request))
+#2 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RegistersExceptionHandlers.php(106): App\\Exceptions\\Handler->render(Object(Laravel\\Lumen\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#3 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(174): Laravel\\Lumen\\Application->sendExceptionToHandler(Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#4 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch(NULL)
+#5 C:\\laragon\\www\\youreoAPI\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#6 {main}
+"} 
+[2021-04-26 21:26:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:27:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:27:39] local.ERROR:  {"exception":"[object] (Illuminate\\Http\\Exceptions\\HttpResponseException(code: 0):  at C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\http\\ResponseTrait.php:151)
+[stacktrace]
+#0 C:\\laragon\\www\\youreoAPI\\app\\Helpers\\ErrorBuilder.php(42): Illuminate\\Http\\JsonResponse->throwResponse()
+#1 C:\\laragon\\www\\youreoAPI\\app\\Exceptions\\Handler.php(56): App\\Helpers\\ErrorBuilder->toResponse(Object(Laravel\\Lumen\\Http\\Request))
+#2 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RegistersExceptionHandlers.php(106): App\\Exceptions\\Handler->render(Object(Laravel\\Lumen\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#3 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(174): Laravel\\Lumen\\Application->sendExceptionToHandler(Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#4 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch(NULL)
+#5 C:\\laragon\\www\\youreoAPI\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#6 {main}
+"} 
+[2021-04-26 21:27:57] local.ERROR:  {"exception":"[object] (Illuminate\\Http\\Exceptions\\HttpResponseException(code: 0):  at C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\http\\ResponseTrait.php:151)
+[stacktrace]
+#0 C:\\laragon\\www\\youreoAPI\\app\\Helpers\\ErrorBuilder.php(42): Illuminate\\Http\\JsonResponse->throwResponse()
+#1 C:\\laragon\\www\\youreoAPI\\app\\Exceptions\\Handler.php(56): App\\Helpers\\ErrorBuilder->toResponse(Object(Laravel\\Lumen\\Http\\Request))
+#2 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RegistersExceptionHandlers.php(106): App\\Exceptions\\Handler->render(Object(Laravel\\Lumen\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#3 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(174): Laravel\\Lumen\\Application->sendExceptionToHandler(Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#4 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch(NULL)
+#5 C:\\laragon\\www\\youreoAPI\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#6 {main}
+"} 
+[2021-04-26 21:28:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:28:25] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:28:29] local.ERROR:  {"exception":"[object] (Illuminate\\Http\\Exceptions\\HttpResponseException(code: 0):  at C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\http\\ResponseTrait.php:151)
+[stacktrace]
+#0 C:\\laragon\\www\\youreoAPI\\app\\Helpers\\ErrorBuilder.php(42): Illuminate\\Http\\JsonResponse->throwResponse()
+#1 C:\\laragon\\www\\youreoAPI\\app\\Exceptions\\Handler.php(56): App\\Helpers\\ErrorBuilder->toResponse(Object(Laravel\\Lumen\\Http\\Request))
+#2 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RegistersExceptionHandlers.php(106): App\\Exceptions\\Handler->render(Object(Laravel\\Lumen\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#3 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(174): Laravel\\Lumen\\Application->sendExceptionToHandler(Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#4 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch(NULL)
+#5 C:\\laragon\\www\\youreoAPI\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#6 {main}
+"} 
+[2021-04-26 21:29:08] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:29:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:29:52] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:30:00] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:30:10] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:30:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:30:33] local.ERROR:  {"exception":"[object] (Illuminate\\Http\\Exceptions\\HttpResponseException(code: 0):  at C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\http\\ResponseTrait.php:151)
+[stacktrace]
+#0 C:\\laragon\\www\\youreoAPI\\app\\Helpers\\ErrorBuilder.php(42): Illuminate\\Http\\JsonResponse->throwResponse()
+#1 C:\\laragon\\www\\youreoAPI\\app\\Http\\Middleware\\Authenticate.php(58): App\\Helpers\\ErrorBuilder->toResponse()
+#2 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\pipeline\\Pipeline.php(167): App\\Http\\Middleware\\Authenticate->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure), 'api_token')
+#3 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#4 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Http\\Request))
+#5 C:\\laragon\\www\\youreoAPI\\app\\Http\\Middleware\\BranchDB.php(28): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#6 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\pipeline\\Pipeline.php(167): App\\Http\\Middleware\\BranchDB->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure), 'version')
+#7 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#8 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Http\\Request))
+#9 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\pipeline\\Pipeline.php(103): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#10 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(423): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#11 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(260): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#12 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(234): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#13 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(170): Laravel\\Lumen\\Application->handleDispatcherResponse(Array)
+#14 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#15 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#16 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch(NULL)
+#17 C:\\laragon\\www\\youreoAPI\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#18 {main}
+"} 
+[2021-04-26 21:31:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:31:40] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:32:24] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php:1032
+Stack trace:
+#0 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(943): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(878): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(840): Illuminate\Container\Container->resolveDependencies(Array)
+#3 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(691): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(637): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 C:\laragon\www\ {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php:1032
+Stack trace:
+#0 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(943): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(878): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(840): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(691): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(637): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 C:\\laragon\\www\\ at C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php:1032)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:32:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:33:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:33:30] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:34:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:35:02] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:35:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:35:53] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:36:00] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:36:20] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:36:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:36:28] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:37:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:37:35] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:37:43] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:38:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:39:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:39:25] local.ERROR: Uncaught Error: Call to a member function getAttributes() on null in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getAttributes() on null in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:39:55] local.ERROR: Uncaught Error: Call to a member function getAttributes() on null in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getAttributes() on null in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:40:12] local.ERROR: Uncaught Error: Call to a member function getAttributes() on null in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getAttributes() on null in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:40:19] local.ERROR: Uncaught Error: Call to a member function getAttributes() on null in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getAttributes() on null in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:40:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:41:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:41:37] local.ERROR: Uncaught Error: Call to a member function getAttributes() on null in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getAttributes() on null in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:42:04] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:42:18] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:42:24] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php:1032
+Stack trace:
+#0 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(943): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(878): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(840): Illuminate\Container\Container->resolveDependencies(Array)
+#3 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(691): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(637): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 C:\laragon\www\ {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php:1032
+Stack trace:
+#0 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(943): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(878): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(840): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(691): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(637): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 C:\\laragon\\www\\ at C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php:1032)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:42:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:42:36] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:42:49] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:42:56] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:43:19] local.ERROR:  {"exception":"[object] (Illuminate\\Http\\Exceptions\\HttpResponseException(code: 0):  at C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\http\\ResponseTrait.php:151)
+[stacktrace]
+#0 C:\\laragon\\www\\youreoAPI\\app\\Helpers\\ErrorBuilder.php(42): Illuminate\\Http\\JsonResponse->throwResponse()
+#1 C:\\laragon\\www\\youreoAPI\\app\\Exceptions\\Handler.php(56): App\\Helpers\\ErrorBuilder->toResponse(Object(Laravel\\Lumen\\Http\\Request))
+#2 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RegistersExceptionHandlers.php(106): App\\Exceptions\\Handler->render(Object(Laravel\\Lumen\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#3 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(174): Laravel\\Lumen\\Application->sendExceptionToHandler(Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#4 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch(NULL)
+#5 C:\\laragon\\www\\youreoAPI\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#6 {main}
+"} 
+[2021-04-26 21:43:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:43:33] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:44:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:44:40] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:44:42] local.ERROR: Undefined variable: events {"exception":"[object] (ErrorException(code: 0): Undefined variable: events at C:\\laragon\\www\\youreoAPI\\app\\Http\\Controllers\\v1\\EventController.php:185)
+[stacktrace]
+#0 C:\\laragon\\www\\youreoAPI\\app\\Http\\Controllers\\v1\\EventController.php(185): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(8, 'Undefined varia...', 'C:\\\\laragon\\\\www\\\\...', 185, Array)
+#1 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\v1\\EventController->showAll(Object(Laravel\\Lumen\\Http\\Request), 'v1-dev')
+#2 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#4 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#5 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(596): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#6 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(386): Illuminate\\Container\\Container->call(Array, Array)
+#7 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(352): Laravel\\Lumen\\Application->callControllerCallable(Array, Array)
+#8 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(326): Laravel\\Lumen\\Application->callLumenController(Object(App\\Http\\Controllers\\v1\\EventController), 'showAll', Array)
+#9 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction(Array)
+#10 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(259): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#11 [internal function]: Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#12 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(48): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Http\\Request))
+#13 C:\\laragon\\www\\youreoAPI\\app\\Http\\Middleware\\Authenticate.php(45): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#14 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\pipeline\\Pipeline.php(167): App\\Http\\Middleware\\Authenticate->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure), 'api_token')
+#15 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#16 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Http\\Request))
+#17 C:\\laragon\\www\\youreoAPI\\app\\Http\\Middleware\\BranchDB.php(28): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#18 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\pipeline\\Pipeline.php(167): App\\Http\\Middleware\\BranchDB->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure), 'version')
+#19 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#20 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Http\\Request))
+#21 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\pipeline\\Pipeline.php(103): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#22 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(423): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#23 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(260): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#24 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(234): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#25 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(170): Laravel\\Lumen\\Application->handleDispatcherResponse(Array)
+#26 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#27 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#28 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch(NULL)
+#29 C:\\laragon\\www\\youreoAPI\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#30 {main}
+"} 
+[2021-04-26 21:44:45] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:44:51] local.ERROR: Undefined variable: events {"exception":"[object] (ErrorException(code: 0): Undefined variable: events at C:\\laragon\\www\\youreoAPI\\app\\Http\\Controllers\\v1\\EventController.php:185)
+[stacktrace]
+#0 C:\\laragon\\www\\youreoAPI\\app\\Http\\Controllers\\v1\\EventController.php(185): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(8, 'Undefined varia...', 'C:\\\\laragon\\\\www\\\\...', 185, Array)
+#1 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\v1\\EventController->showAll(Object(Laravel\\Lumen\\Http\\Request), 'v1-dev')
+#2 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#4 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#5 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(596): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#6 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(386): Illuminate\\Container\\Container->call(Array, Array)
+#7 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(352): Laravel\\Lumen\\Application->callControllerCallable(Array, Array)
+#8 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(326): Laravel\\Lumen\\Application->callLumenController(Object(App\\Http\\Controllers\\v1\\EventController), 'showAll', Array)
+#9 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction(Array)
+#10 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(259): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#11 [internal function]: Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#12 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(48): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Http\\Request))
+#13 C:\\laragon\\www\\youreoAPI\\app\\Http\\Middleware\\Authenticate.php(45): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#14 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\pipeline\\Pipeline.php(167): App\\Http\\Middleware\\Authenticate->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure), 'api_token')
+#15 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#16 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Http\\Request))
+#17 C:\\laragon\\www\\youreoAPI\\app\\Http\\Middleware\\BranchDB.php(28): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#18 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\pipeline\\Pipeline.php(167): App\\Http\\Middleware\\BranchDB->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure), 'version')
+#19 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#20 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Http\\Request))
+#21 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\pipeline\\Pipeline.php(103): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#22 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(423): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#23 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(260): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#24 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(234): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#25 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(170): Laravel\\Lumen\\Application->handleDispatcherResponse(Array)
+#26 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#27 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#28 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch(NULL)
+#29 C:\\laragon\\www\\youreoAPI\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#30 {main}
+"} 
+[2021-04-26 21:44:54] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:45:10] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:45:18] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:45:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:45:27] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:45:44] local.ERROR: Call to undefined method Illuminate\Database\Eloquent\Relations\HasMany::mapInto() {"exception":"[object] (BadMethodCallException(code: 0): Call to undefined method Illuminate\\Database\\Eloquent\\Relations\\HasMany::mapInto() at C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\support\\Traits\\ForwardsCalls.php:50)
+[stacktrace]
+#0 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\support\\Traits\\ForwardsCalls.php(36): Illuminate\\Database\\Eloquent\\Relations\\Relation::throwBadMethodCallException('mapInto')
+#1 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\database\\Eloquent\\Relations\\Relation.php(385): Illuminate\\Database\\Eloquent\\Relations\\Relation->forwardCallTo(Object(Illuminate\\Database\\Eloquent\\Builder), 'mapInto', Array)
+#2 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\http\\Resources\\CollectsResources.php(30): Illuminate\\Database\\Eloquent\\Relations\\Relation->__call('mapInto', Array)
+#3 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\http\\Resources\\Json\\ResourceCollection.php(52): Illuminate\\Http\\Resources\\Json\\ResourceCollection->collectResource(Object(Illuminate\\Database\\Eloquent\\Relations\\HasMany))
+#4 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\http\\Resources\\Json\\AnonymousResourceCollection.php(25): Illuminate\\Http\\Resources\\Json\\ResourceCollection->__construct(Object(Illuminate\\Database\\Eloquent\\Relations\\HasMany))
+#5 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\http\\Resources\\Json\\JsonResource.php(79): Illuminate\\Http\\Resources\\Json\\AnonymousResourceCollection->__construct(Object(Illuminate\\Database\\Eloquent\\Relations\\HasMany), 'App\\\\Http\\\\Resour...')
+#6 C:\\laragon\\www\\youreoAPI\\app\\Http\\Controllers\\v1\\EventController.php(187): Illuminate\\Http\\Resources\\Json\\JsonResource::collection(Object(Illuminate\\Database\\Eloquent\\Relations\\HasMany))
+#7 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\BoundMethod.php(36): App\\Http\\Controllers\\v1\\EventController->showAll(Object(Laravel\\Lumen\\Http\\Request), 'v1-dev', 'ongoing')
+#8 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#9 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#10 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#11 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(596): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#12 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(386): Illuminate\\Container\\Container->call(Array, Array)
+#13 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(352): Laravel\\Lumen\\Application->callControllerCallable(Array, Array)
+#14 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(326): Laravel\\Lumen\\Application->callLumenController(Object(App\\Http\\Controllers\\v1\\EventController), 'showAll', Array)
+#15 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction(Array)
+#16 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(259): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#17 [internal function]: Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#18 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(48): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Http\\Request))
+#19 C:\\laragon\\www\\youreoAPI\\app\\Http\\Middleware\\Authenticate.php(45): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#20 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\pipeline\\Pipeline.php(167): App\\Http\\Middleware\\Authenticate->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure), 'api_token')
+#21 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#22 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Http\\Request))
+#23 C:\\laragon\\www\\youreoAPI\\app\\Http\\Middleware\\BranchDB.php(28): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#24 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\pipeline\\Pipeline.php(167): App\\Http\\Middleware\\BranchDB->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure), 'version')
+#25 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#26 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Routing\\Pipeline.php(30): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Http\\Request))
+#27 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\pipeline\\Pipeline.php(103): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#28 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(423): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#29 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(260): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#30 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(234): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#31 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(170): Laravel\\Lumen\\Application->handleDispatcherResponse(Array)
+#32 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#33 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#34 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch(NULL)
+#35 C:\\laragon\\www\\youreoAPI\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#36 {main}
+"} 
+[2021-04-26 21:45:58] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:46:11] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:46:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:46:36] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:46:54] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:47:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:47:35] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:48:03] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:48:19] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:48:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:48:24] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:48:31] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:48:53] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:48:55] local.ERROR:  {"exception":"[object] (Illuminate\\Http\\Exceptions\\HttpResponseException(code: 0):  at C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\http\\ResponseTrait.php:151)
+[stacktrace]
+#0 C:\\laragon\\www\\youreoAPI\\app\\Helpers\\ErrorBuilder.php(42): Illuminate\\Http\\JsonResponse->throwResponse()
+#1 C:\\laragon\\www\\youreoAPI\\app\\Exceptions\\Handler.php(56): App\\Helpers\\ErrorBuilder->toResponse(Object(Laravel\\Lumen\\Http\\Request))
+#2 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RegistersExceptionHandlers.php(106): App\\Exceptions\\Handler->render(Object(Laravel\\Lumen\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#3 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(174): Laravel\\Lumen\\Application->sendExceptionToHandler(Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#4 C:\\laragon\\www\\youreoAPI\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch(NULL)
+#5 C:\\laragon\\www\\youreoAPI\\public\\index.php(28): Laravel\\Lumen\\Application->run()
+#6 {main}
+"} 
+[2021-04-26 21:49:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:50:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:51:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:52:24] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php:1032
+Stack trace:
+#0 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(943): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(878): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(840): Illuminate\Container\Container->resolveDependencies(Array)
+#3 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(691): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(637): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 C:\laragon\www\ {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php:1032
+Stack trace:
+#0 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(943): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(878): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(840): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(691): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(637): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 C:\\laragon\\www\\ at C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php:1032)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:52:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:53:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:54:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:55:26] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:56:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:57:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:58:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 21:59:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:00:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:01:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:02:27] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php:1032
+Stack trace:
+#0 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(943): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(878): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(840): Illuminate\Container\Container->resolveDependencies(Array)
+#3 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(691): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(637): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 C:\laragon\www\ {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php:1032
+Stack trace:
+#0 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(943): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(878): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(840): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(691): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(637): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 C:\\laragon\\www\\ at C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php:1032)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:02:28] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:03:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:04:17] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:04:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:05:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:05:44] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:05:57] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:06:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:07:04] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:07:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:07:47] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:08:23] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:08:25] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:08:32] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:08:41] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:09:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:10:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:11:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:12:24] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php:1032
+Stack trace:
+#0 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(943): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(878): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(840): Illuminate\Container\Container->resolveDependencies(Array)
+#3 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(691): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(637): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 C:\laragon\www\ {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php:1032
+Stack trace:
+#0 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(943): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(878): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(840): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(691): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(637): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 C:\\laragon\\www\\ at C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php:1032)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:12:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:13:25] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:14:25] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:15:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:16:25] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:17:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:18:25] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:19:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:20:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:21:25] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:22:24] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php:1032
+Stack trace:
+#0 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(943): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(878): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(840): Illuminate\Container\Container->resolveDependencies(Array)
+#3 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(691): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(637): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 C:\laragon\www\ {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php:1032
+Stack trace:
+#0 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(943): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(878): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(840): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(691): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(637): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 C:\\laragon\\www\\ at C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php:1032)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:22:25] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:23:25] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:24:25] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:25:25] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:26:25] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:27:25] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:28:25] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:29:25] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:30:25] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:31:25] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:32:24] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php:1032
+Stack trace:
+#0 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(943): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(878): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(840): Illuminate\Container\Container->resolveDependencies(Array)
+#3 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(691): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 C:\laragon\www\youreoAPI\vendor\illuminate\container\Container.php(637): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 C:\laragon\www\ {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php:1032
+Stack trace:
+#0 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(943): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(878): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(840): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(691): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php(637): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 C:\\laragon\\www\\ at C:\\laragon\\www\\youreoAPI\\vendor\\illuminate\\container\\Container.php:1032)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:32:25] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:33:25] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:34:25] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:35:25] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:36:25] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:37:25] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:38:25] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:39:25] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-04-26 22:40:25] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
